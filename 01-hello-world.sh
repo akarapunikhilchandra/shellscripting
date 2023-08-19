@@ -2,7 +2,10 @@
 
 echo "my name is devops"
 
-echo "suresh: Hi ramesh how are you?"
-echo "ramesh: i m goof how are you suresh?"
-echo "suresh: where are you going ramesh ?"
-echo "ramesh: i am goog to market ."
+
+PERSON1=suresh
+PERSON2=ramesh
+echo "$PERSON1: Hi $PERSON2 how are you?"
+echo "$PERSON2: i m good how are you $PERSON1?"
+echo "$PERSON1: where are you going $PERSON2 ?"
+echo "$PERSON2: i am goog to market ."
