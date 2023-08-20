@@ -16,7 +16,7 @@ else
    echo "Installation is success"
 fi 
 
-yum install postflix -y
+yum install postfix -y
 if [ $? -ne 0 ]
 then 
    echo "installation is error"
