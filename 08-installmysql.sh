@@ -6,9 +6,9 @@ then
    echo "ERROR :: Please run with root access"
 fi
 
-yum install git -y
+yum install mysqll -y
 
-if [ $? -e 0 ]
+if [ $? -ne 0 ]
 then 
    echo "installation is error"
    exit 1
