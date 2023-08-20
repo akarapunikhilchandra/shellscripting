@@ -5,10 +5,10 @@ VALIDATE (){
     if [ $1 -ne 0 ] 
 
 then 
-    echo "INSTALLATION .. FAILURE"
+    echo "$2 .. FAILURE"
     exit 1
 else
-    echo "INSTALLATION .. SUCCESS"
+    echo "$2 .. SUCCESS"
 fi
 }
 if [ $USERID -ne 0 ]
