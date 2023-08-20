@@ -8,7 +8,7 @@ fi
 
 yum install git -y
 
-if [ $? -ne 0 ]
+if [ $? -e 0 ]
 then 
    echo "installation is error"
    exit 1
