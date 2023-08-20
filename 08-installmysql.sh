@@ -13,5 +13,14 @@ then
    echo "installation is error"
    exit 1
 else 
-   echo "Installation is success or already installed"
+   echo "Installation is success"
 fi 
+
+yum install postflix -y
+if [ $? -ne 0 ]
+then 
+   echo "installation is error"
+   exit 1
+else 
+   echo "Installation is success"
+fi
