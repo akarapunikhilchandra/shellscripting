@@ -13,5 +13,5 @@ then
    echo "installation is error"
    exit 1
 else 
-   echo "Installation is success"
+   echo "Installation is success or already installed"
 fi 
