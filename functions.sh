@@ -20,8 +20,8 @@ then
     echo "ERROR :: Please Run This Script Using Root User"
     exit 1
 fi
-yum remove mysql -y &>>$LOGFILE
-VALIDATE $? "removing mysql"
-yum remove postfix -y &>>$LOGFILE
-VALIDATE $? "removing mysql"
+yum install mysql -y &>>$LOGFILE
+VALIDATE $? "installing mysql"
+yum install postfix -y &>>$LOGFILE
+VALIDATE $? "installing postfix"
 
